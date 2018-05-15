@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php53Libevent < AbstractPhp53Extension
+class Php53Libevent < PhpExtensionFormula
   init
   desc "This extension is a wrapper for the libevent event notification library."
   homepage "https://pecl.php.net/package/libevent"

@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php53Thrift < AbstractPhp53Extension
+class Php53Thrift < PhpExtensionFormula
   init
   desc "Apache Thrift is a software framework for scalable cross-language services development."
   homepage "https://thrift.apache.org/"

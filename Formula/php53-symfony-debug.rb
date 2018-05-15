@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php53SymfonyDebug < AbstractPhp53Extension
+class Php53SymfonyDebug < PhpExtensionFormula
   init
   desc "Symfony debug component"
   homepage "http://symfony.com/doc/current/components/debug"

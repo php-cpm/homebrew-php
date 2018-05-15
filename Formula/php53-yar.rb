@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php53Yar < AbstractPhp53Extension
+class Php53Yar < PhpExtensionFormula
   init
   desc "Light, concurrent RPC framework"
   homepage "https://pecl.php.net/package/yar"

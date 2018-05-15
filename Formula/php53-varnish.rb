@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php53Varnish < AbstractPhp53Extension
+class Php53Varnish < PhpExtensionFormula
   init
   desc "Varnish Cache bindings"
   homepage "https://pecl.php.net/package/varnish"

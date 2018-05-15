@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php53Snappy < AbstractPhp53Extension
+class Php53Snappy < PhpExtensionFormula
   init
   desc "Snappy Extension for PHP"
   homepage "https://github.com/kjdev/php-ext-snappy"

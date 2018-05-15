@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php53Eio < AbstractPhp53Extension
+class Php53Eio < PhpExtensionFormula
   init
   desc "interface to the libeio library"
   homepage "https://pecl.php.net/package/eio"

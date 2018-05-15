@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php53Yaf < AbstractPhp53Extension
+class Php53Yaf < PhpExtensionFormula
   init
   desc "Yaf is a PHP framework similar to zend framework, which is written in c and built as PHP extension"
   homepage "https://pecl.php.net/package/yaf"

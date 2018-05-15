@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php53Couchbase < AbstractPhp53Extension
+class Php53Couchbase < PhpExtensionFormula
   init
   desc "Provides fast access to documents stored in a Couchbase Server."
   homepage "https://pecl.php.net/package/couchbase"

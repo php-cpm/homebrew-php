@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php53Graphdat < AbstractPhp53Extension
+class Php53Graphdat < PhpExtensionFormula
   init
   desc "Troubleshoot application and server performance."
   homepage "http://www.graphdat.com/"

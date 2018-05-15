@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php53Zenddebugger < AbstractPhp53Extension
+class Php53Zenddebugger < PhpExtensionFormula
   init
   desc "Zend Debugger is a full-featured php debugger engine."
   homepage "http://www.zend.com/community/pdt/downloads"

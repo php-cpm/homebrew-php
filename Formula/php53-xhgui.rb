@@ -1,7 +1,7 @@
 require File.expand_path("../../language/php", __FILE__)
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php53Xhgui < AbstractPhp53Extension
+class Php53Xhgui < PhpExtensionFormula
   include Language::PHP::Composer
 
   init

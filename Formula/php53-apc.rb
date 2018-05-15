@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php53Apc < AbstractPhp53Extension
+class Php53Apc < PhpExtensionFormula
   init
   desc "Alternative PHP cache"
   homepage "https://pecl.php.net/package/apc"

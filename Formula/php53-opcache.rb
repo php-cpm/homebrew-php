@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php53Opcache < AbstractPhp53Extension
+class Php53Opcache < PhpExtensionFormula
   init
   desc "OPcache improves PHP performance"
   homepage "https://github.com/zend-dev/ZendOptimizerPlus"

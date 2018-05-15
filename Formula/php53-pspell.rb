@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php53Pspell < AbstractPhp53Extension
+class Php53Pspell < PhpExtensionFormula
   init
   desc "Extension to check the spelling"
   homepage "http://php.net/manual/en/book.pspell.php"

@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php53Crypto < AbstractPhp53Extension
+class Php53Crypto < PhpExtensionFormula
   init
   desc "Wrapper for OpenSSL Crypto Library"
   homepage "https://pecl.php.net/package/crypto"

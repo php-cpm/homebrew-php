@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php53Sphinx < AbstractPhp53Extension
+class Php53Sphinx < PhpExtensionFormula
   init
   desc "Client extension for Sphinx - opensource SQL full-text search engine"
   homepage "https://pecl.php.net/package/sphinx"
