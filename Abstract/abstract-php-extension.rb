@@ -2,7 +2,10 @@ require "formula"
 class PhpExtensionFormula < Formula
   def initialize(*)
     super
-    active_spec.owner = php_parent.stable.owner
+  end
+
+  def self.init
+    extension_dsl
   end
 
   def install
@@ -57,7 +60,7 @@ class PhpExtensionFormula < Formula
   end
 
   class << self
-    NAME_PATTERN = /^Php(?:AT([57])(\d+))?(.+)/
+    NAME_PATTERN = /^Php(?:([57])(\d+))?(.+)/
     attr_reader :configure_args, :php_parent, :extension
 
     def configure_arg(args)
@@ -93,3 +96,4 @@ class PhpExtensionFormula < Formula
     end
   end
 end
+
