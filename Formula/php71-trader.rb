@@ -15,7 +15,7 @@ class Php71Trader < PhpExtensionFormula
   end
 
   depends_on "ta-lib"
-  depends_on "libtool" => :run
+  depends_on "libtool"
 
   def install
     Dir.chdir "trader-#{version}"
