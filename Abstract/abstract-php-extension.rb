@@ -15,7 +15,7 @@ class InvalidPhpizeError < RuntimeError
   end
 end
 
-class AbstractPhpExtension < Formula
+class PhpExtensionFormula < Formula
   def initialize(*)
     super
   end
