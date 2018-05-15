@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php56Ssh2 < AbstractPhp56Extension
+class Php56Ssh2 < PhpExtensionFormula
   init
   desc "Provides bindings to the functions of libssh2 which implements the SSH2 protocol."
   homepage "https://pecl.php.net/package/ssh2"

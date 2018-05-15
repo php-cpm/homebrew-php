@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php71Ast < AbstractPhp71Extension
+class Php71Ast < PhpExtensionFormula
   init
   desc "Exposing PHP 7 abstract syntax tree"
   homepage "https://github.com/nikic/php-ast"

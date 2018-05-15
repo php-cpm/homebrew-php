@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php72Meminfo < AbstractPhp72Extension
+class Php72Meminfo < PhpExtensionFormula
   init
   desc "PHP extension to get insight about memory usage"
   homepage "https://github.com/BitOne/php-meminfo"

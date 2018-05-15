@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php55Riak < AbstractPhp55Extension
+class Php55Riak < PhpExtensionFormula
   init
   desc "Riak client for PHP."
   homepage "http://phpriak.bachpedersen.dk/"

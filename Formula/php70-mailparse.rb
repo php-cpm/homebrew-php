@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php70Mailparse < AbstractPhp70Extension
+class Php70Mailparse < PhpExtensionFormula
   init
   desc "Extension for parsing email messages."
   homepage "https://pecl.php.net/package/mailparse"

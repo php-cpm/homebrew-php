@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php55Xhprof < AbstractPhp55Extension
+class Php55Xhprof < PhpExtensionFormula
   init
   desc "XHProf is a function-level hierarchical profiler for PHP and has a simple HTML based user interface."
   homepage "https://github.com/facebook/xhprof"

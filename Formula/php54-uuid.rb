@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php54Uuid < AbstractPhp54Extension
+class Php54Uuid < PhpExtensionFormula
   init
   desc "UUID extension"
   homepage "https://pecl.php.net/package/uuid"

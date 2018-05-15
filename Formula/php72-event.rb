@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php72Event < AbstractPhp72Extension
+class Php72Event < PhpExtensionFormula
   init
   desc "Provides interface to libevent library"
   homepage "https://pecl.php.net/package/event"

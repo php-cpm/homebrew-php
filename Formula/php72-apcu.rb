@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php72Apcu < AbstractPhp72Extension
+class Php72Apcu < PhpExtensionFormula
   init
   desc "APC User Cache"
   homepage "https://pecl.php.net/package/apcu"

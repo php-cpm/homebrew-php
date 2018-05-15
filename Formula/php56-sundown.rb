@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php56Sundown < AbstractPhp56Extension
+class Php56Sundown < PhpExtensionFormula
   init
   desc "Sundown is a fast, robust Markdown parsing library for PHP5"
   homepage "https://pecl.php.net/package/sundown"

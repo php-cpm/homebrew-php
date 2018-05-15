@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php72Snmp < AbstractPhp72Extension
+class Php72Snmp < PhpExtensionFormula
   init
   desc "SNMP core php extension"
   homepage "https://php.net/manual/en/book.snmp.php"

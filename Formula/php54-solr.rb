@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php54Solr < AbstractPhp54Extension
+class Php54Solr < PhpExtensionFormula
   init
   desc "Fast and lightweight library to communicate with Apache Solr servers"
   homepage "https://pecl.php.net/package/solr"

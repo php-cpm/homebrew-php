@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php55Http < AbstractPhp55Extension
+class Php55Http < PhpExtensionFormula
   init
   desc "This HTTP extension aims to provide a convenient and powerful set of functionality for one of PHPs major applications."
   homepage "https://pecl.php.net/package/pecl_http"

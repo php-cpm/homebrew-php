@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php71Gmp < AbstractPhp71Extension
+class Php71Gmp < PhpExtensionFormula
   init
   desc "GMP core php extension"
   homepage "https://php.net/manual/en/book.gmp.php"

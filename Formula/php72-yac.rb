@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php72Yac < AbstractPhp72Extension
+class Php72Yac < PhpExtensionFormula
   init
   desc "Fast shared memory user data cache for PHP"
   homepage "https://github.com/laruence/yac"

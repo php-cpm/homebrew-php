@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php71Xdiff < AbstractPhp71Extension
+class Php71Xdiff < PhpExtensionFormula
   init
   desc "File differences and patches"
   homepage "https://pecl.php.net/package/xdiff"

@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php71Ref < AbstractPhp71Extension
+class Php71Ref < PhpExtensionFormula
   init
   desc "Soft and Weak references support for PHP"
   homepage "https://github.com/pinepain/php-ref"

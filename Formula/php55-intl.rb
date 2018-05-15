@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php55Intl < AbstractPhp55Extension
+class Php55Intl < PhpExtensionFormula
   init
   desc "A wrapper for the ICU library"
   homepage "https://php.net/manual/en/book.intl.php"

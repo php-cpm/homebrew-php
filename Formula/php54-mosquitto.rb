@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php54Mosquitto < AbstractPhp54Extension
+class Php54Mosquitto < PhpExtensionFormula
   init
   desc "A wrapper for the Mosquitto MQTT client library for PHP."
   homepage "https://github.com/mgdm/Mosquitto-PHP/"

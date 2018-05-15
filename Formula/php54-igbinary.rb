@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php54Igbinary < AbstractPhp54Extension
+class Php54Igbinary < PhpExtensionFormula
   init
   desc "Drop in replacement for the standard php serializer"
   homepage "https://pecl.php.net/package/igbinary"

@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php54Maxminddb < AbstractPhp54Extension
+class Php54Maxminddb < PhpExtensionFormula
   init
   desc "Extension for MaxMind DB file format"
   homepage "https://github.com/maxmind/libmaxminddb"

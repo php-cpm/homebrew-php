@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php55Midgard2 < AbstractPhp55Extension
+class Php55Midgard2 < PhpExtensionFormula
   init
   desc "PHP5 API for Midgard persistent storage framework"
   homepage "http://www.midgard-project.org"

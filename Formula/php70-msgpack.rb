@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php70Msgpack < AbstractPhp70Extension
+class Php70Msgpack < PhpExtensionFormula
   init
   desc "MessagePack serialization"
   homepage "https://pecl.php.net/package/msgpack"

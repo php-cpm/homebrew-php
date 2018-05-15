@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php54Pdflib < AbstractPhp54Extension
+class Php54Pdflib < PhpExtensionFormula
   init
   desc "Creating PDF on the fly with the PDFlib library"
   homepage "http://www.pdflib.com"

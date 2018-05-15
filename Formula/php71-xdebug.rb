@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php71Xdebug < AbstractPhp71Extension
+class Php71Xdebug < PhpExtensionFormula
   init
   desc "Provides debugging and profiling capabilities."
   homepage "https://xdebug.org"

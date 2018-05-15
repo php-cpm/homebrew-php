@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php55Lz4 < AbstractPhp55Extension
+class Php55Lz4 < PhpExtensionFormula
   init
   desc "Extremely Fast Compression algorithm."
   homepage "https://cyan4973.github.io/lz4/"

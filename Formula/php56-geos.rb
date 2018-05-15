@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php56Geos < AbstractPhp56Extension
+class Php56Geos < PhpExtensionFormula
   init
   desc "PHP bindings for GEOS"
   homepage "https://git.osgeo.org/gogs/geos/php-geos"

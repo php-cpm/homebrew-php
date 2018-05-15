@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php54Yaml < AbstractPhp54Extension
+class Php54Yaml < PhpExtensionFormula
   init
   homepage "https://pecl.php.net/package/yaml"
   desc "YAML-1.1 parser and emitter"

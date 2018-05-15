@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php54Httpparser < AbstractPhp54Extension
+class Php54Httpparser < PhpExtensionFormula
   init
   desc "The C http parser from Ruby's Mongrel web server"
   homepage "https://github.com/dhotson/httpparser-php"

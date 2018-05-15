@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php70Mustache < AbstractPhp70Extension
+class Php70Mustache < PhpExtensionFormula
   init
   desc "Mustache PHP Extension"
   homepage "https://github.com/jbboehr/php-mustache#mustache"

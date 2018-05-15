@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php54Oauth < AbstractPhp54Extension
+class Php54Oauth < PhpExtensionFormula
   init
   desc "OAuth 1.0 consumer and provider"
   homepage "https://pecl.php.net/package/oauth"

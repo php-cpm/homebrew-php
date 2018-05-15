@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php56Redland < AbstractPhp56Extension
+class Php56Redland < PhpExtensionFormula
   init
   desc "Redland RDF Libraries for PHP"
   homepage "http://librdf.org"

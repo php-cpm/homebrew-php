@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php55Boxwood < AbstractPhp55Extension
+class Php55Boxwood < PhpExtensionFormula
   init
   desc "PHP extension for fast replacement of multiple words in a piece of text"
   homepage "https://github.com/ning/boxwood"

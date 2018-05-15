@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php55Runkit < AbstractPhp55Extension
+class Php55Runkit < PhpExtensionFormula
   init
   desc "Extension to modify consts/functions/classes"
   homepage "http://php.net/manual/en/book.runkit.php"

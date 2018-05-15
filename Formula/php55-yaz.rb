@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php55Yaz < AbstractPhp55Extension
+class Php55Yaz < PhpExtensionFormula
   init
   desc "This extension implements a Z39.50/SRU client for PHP using the YAZ toolkit and the ZOOM framework."
   homepage "http://www.indexdata.com/phpyaz"

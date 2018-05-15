@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php56Translit < AbstractPhp56Extension
+class Php56Translit < PhpExtensionFormula
   init
   desc "transliterates non-latin character sets to latin"
   homepage "https://github.com/derickr/pecl-translit"

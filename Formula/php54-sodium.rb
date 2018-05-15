@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php54Sodium < AbstractPhp54Extension
+class Php54Sodium < PhpExtensionFormula
   init
   desc "Modern and easy-to-use crypto library using libsodium."
   homepage "https://github.com/alethia7/php-sodium"

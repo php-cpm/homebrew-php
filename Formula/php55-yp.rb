@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php55Yp < AbstractPhp55Extension
+class Php55Yp < PhpExtensionFormula
   init
   desc "YP/NIS functions"
   homepage "https://pecl.php.net/package/yp"

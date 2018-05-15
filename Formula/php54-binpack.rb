@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php54Binpack < AbstractPhp54Extension
+class Php54Binpack < PhpExtensionFormula
   init
   desc "The php implementation for BINPACK"
   homepage "https://pecl.php.net/package/binpack"

@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php55Memcached < AbstractPhp55Extension
+class Php55Memcached < PhpExtensionFormula
   init
   desc "Memcached via libmemcached library"
   homepage "https://pecl.php.net/package/memcached"

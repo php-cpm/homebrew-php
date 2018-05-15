@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php55Magickwand < AbstractPhp55Extension
+class Php55Magickwand < PhpExtensionFormula
   init
   desc "ImageMagick MagickWand API"
   homepage "http://www.magickwand.org"

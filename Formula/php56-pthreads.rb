@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php56Pthreads < AbstractPhp56Extension
+class Php56Pthreads < PhpExtensionFormula
   init ["with-thread-safety"]
   desc "Threading API"
   homepage "https://pecl.php.net/package/pthreads"

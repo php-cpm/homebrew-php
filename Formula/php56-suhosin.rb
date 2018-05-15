@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php56Suhosin < AbstractPhp56Extension
+class Php56Suhosin < PhpExtensionFormula
   init
   desc "Suhosin is an advanced protection system for PHP installations."
   homepage "https://suhosin.org/stories/index.html"

@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php54FastAssert < AbstractPhp54Extension
+class Php54FastAssert < PhpExtensionFormula
   init
   desc "Provides a nice way of making Assertions in php."
   homepage "https://github.com/box/fast_assert"

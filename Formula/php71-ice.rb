@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php71Ice < AbstractPhp71Extension
+class Php71Ice < PhpExtensionFormula
   init
   desc "Ice for PHP"
   homepage "https://zeroc.com"

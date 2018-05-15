@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php54Uploadprogress < AbstractPhp54Extension
+class Php54Uploadprogress < PhpExtensionFormula
   init
   desc "An extension to track progress of a file upload."
   homepage "https://pecl.php.net/package/uploadprogress"

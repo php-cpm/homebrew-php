@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php54Geoip < AbstractPhp54Extension
+class Php54Geoip < PhpExtensionFormula
   init
   desc "Map IP address to geographic places"
   homepage "https://pecl.php.net/package/geoip"

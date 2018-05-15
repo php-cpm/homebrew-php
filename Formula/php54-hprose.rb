@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php54Hprose < AbstractPhp54Extension
+class Php54Hprose < PhpExtensionFormula
   init
   desc "High Performance Remote Object Service Engine"
   homepage "https://pecl.php.net/package/hprose"

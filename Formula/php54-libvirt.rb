@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php54Libvirt < AbstractPhp54Extension
+class Php54Libvirt < PhpExtensionFormula
   init
   desc "PHP bindings for libvirt virtualization toolkit"
   homepage "http://libvirt.org/php"

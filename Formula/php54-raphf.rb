@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php54Raphf < AbstractPhp54Extension
+class Php54Raphf < PhpExtensionFormula
   init
   desc "Split-off of pecl_http's persistent handle and resource factory API"
   homepage "https://pecl.php.net/package/raphf"

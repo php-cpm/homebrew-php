@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php54Dbus < AbstractPhp54Extension
+class Php54Dbus < PhpExtensionFormula
   init
   desc "Extension for interaction with DBUS busses"
   homepage "https://pecl.php.net/package/dbus"

@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php55Pinba < AbstractPhp55Extension
+class Php55Pinba < PhpExtensionFormula
   init
   desc "PHP extension for Pinba monitoring server"
   homepage "http://pinba.org/"

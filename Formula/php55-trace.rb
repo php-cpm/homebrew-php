@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php55Trace < AbstractPhp55Extension
+class Php55Trace < PhpExtensionFormula
   init
   desc "PHP extension and tool for low-overhead tracing"
   homepage "https://pecl.php.net/package/trace"

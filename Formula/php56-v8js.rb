@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php56V8js < AbstractPhp56Extension
+class Php56V8js < PhpExtensionFormula
   init
   desc "PHP extension for Google's V8 Javascript engine"
   homepage "http://pecl.php.net/package/v8js"

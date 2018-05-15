@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php70Timezonedb < AbstractPhp70Extension
+class Php70Timezonedb < PhpExtensionFormula
   init
   desc "Timezone Database to be used with PHP's date & time functions"
   homepage "https://pecl.php.net/package/timezonedb"

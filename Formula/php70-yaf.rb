@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php70Yaf < AbstractPhp70Extension
+class Php70Yaf < PhpExtensionFormula
   init
   desc "PHP framework similar to zend framework built as PHP extension"
   homepage "https://pecl.php.net/package/yaf"

@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php56Jsmin < AbstractPhp56Extension
+class Php56Jsmin < PhpExtensionFormula
   init
   desc "PHP extension for minifying JavaScript."
   homepage "https://pecl.php.net/package/jsmin"

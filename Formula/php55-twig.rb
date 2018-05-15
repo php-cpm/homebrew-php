@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php55Twig < AbstractPhp55Extension
+class Php55Twig < PhpExtensionFormula
   init
   desc "flexible, fast, and secure template language"
   homepage "http://twig.sensiolabs.org/"

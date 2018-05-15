@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php72Ev < AbstractPhp72Extension
+class Php72Ev < PhpExtensionFormula
   init
   desc "interface to libev library"
   homepage "https://pecl.php.net/package/ev"

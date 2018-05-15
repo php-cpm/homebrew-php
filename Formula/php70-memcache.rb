@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php70Memcache < AbstractPhp70Extension
+class Php70Memcache < PhpExtensionFormula
   init
   desc "Memcache PHP extension"
   homepage "https://github.com/websupport-sk/pecl-memcache"

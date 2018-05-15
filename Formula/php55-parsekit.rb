@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php55Parsekit < AbstractPhp55Extension
+class Php55Parsekit < PhpExtensionFormula
   init
   homepage "https://pecl.php.net/package/parsekit"
   desc "PHP Opcode Analyser"

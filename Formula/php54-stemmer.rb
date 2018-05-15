@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php54Stemmer < AbstractPhp54Extension
+class Php54Stemmer < PhpExtensionFormula
   init
   desc "This stem extension for PHP provides stemming capability for a variety of languages."
   homepage "https://github.com/hthetiot/php-stemmer"

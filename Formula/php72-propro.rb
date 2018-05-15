@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php72Propro < AbstractPhp72Extension
+class Php72Propro < PhpExtensionFormula
   init
   desc "Reusable split-off of pecl_http's property proxy API."
   homepage "https://pecl.php.net/package/propro"

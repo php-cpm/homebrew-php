@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php71Zmq < AbstractPhp71Extension
+class Php71Zmq < PhpExtensionFormula
   init
   desc "ZeroMQ for PHP"
   homepage "http://zeromq.org/bindings:php"

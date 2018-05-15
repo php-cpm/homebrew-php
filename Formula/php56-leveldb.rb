@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php56Leveldb < AbstractPhp56Extension
+class Php56Leveldb < PhpExtensionFormula
   init
   desc "This extension is a PHP binding for Google LevelDB"
   homepage "https://pecl.php.net/package/leveldb"

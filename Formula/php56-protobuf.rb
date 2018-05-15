@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php56Protobuf < AbstractPhp56Extension
+class Php56Protobuf < PhpExtensionFormula
   init
   desc "Fast PHP Protocol Buffers implementation"
   homepage "https://github.com/allegro/php-protobuf"

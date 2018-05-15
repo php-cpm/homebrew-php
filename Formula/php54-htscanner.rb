@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php54Htscanner < AbstractPhp54Extension
+class Php54Htscanner < PhpExtensionFormula
   init
   desc "Fork of the htscanner project with additional settings to facilitate shared webhosting providers."
   homepage "https://github.com/piannelli/htscanner-enhanced"

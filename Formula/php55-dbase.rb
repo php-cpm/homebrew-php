@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php55Dbase < AbstractPhp55Extension
+class Php55Dbase < PhpExtensionFormula
   init
   desc "dBase database file access functions"
   homepage "https://pecl.php.net/package/dbase"

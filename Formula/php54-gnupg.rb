@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php54Gnupg < AbstractPhp54Extension
+class Php54Gnupg < PhpExtensionFormula
   init
   desc "Wrapper around the gpgme library"
   homepage "https://pecl.php.net/package/gnupg"

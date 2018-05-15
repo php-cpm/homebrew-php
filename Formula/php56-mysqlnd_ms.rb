@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php56MysqlndMs < AbstractPhp56Extension
+class Php56MysqlndMs < PhpExtensionFormula
   init
   desc "Replication and load balancing plugin for mysqlnd"
   homepage "https://pecl.php.net/package/mysqlnd_ms"

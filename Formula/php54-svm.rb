@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php54Svm < AbstractPhp54Extension
+class Php54Svm < PhpExtensionFormula
   init
   desc "Support Vector Machine Library"
   homepage "http://php.net/manual/en/book.svm.php"

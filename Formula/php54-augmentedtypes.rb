@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php54Augmentedtypes < AbstractPhp54Extension
+class Php54Augmentedtypes < PhpExtensionFormula
   init
   desc "A PHP extension to enforce parameter and return type annotations"
   homepage "https://github.com/box/augmented_types"

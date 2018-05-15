@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php54Uopz < AbstractPhp54Extension
+class Php54Uopz < PhpExtensionFormula
   init
   desc "The uopz extension exposes Zend Engine functionality normally used at compilation and execution time."
   homepage "http://php.net/manual/en/book.uopz.php"

@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php54Stats < AbstractPhp54Extension
+class Php54Stats < PhpExtensionFormula
   init
   desc "Extension with routines for statistical computation."
   homepage "https://pecl.php.net/package/stats"

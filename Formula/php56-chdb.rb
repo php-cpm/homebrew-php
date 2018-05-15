@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php56Chdb < AbstractPhp56Extension
+class Php56Chdb < PhpExtensionFormula
   init
   desc "A fast database for constant data with memory sharing across processes"
   homepage "https://pecl.php.net/package/chdb"

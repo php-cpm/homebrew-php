@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php56Zookeeper < AbstractPhp56Extension
+class Php56Zookeeper < PhpExtensionFormula
   init
   desc "PHP extension for interfacing with Apache ZooKeeper"
   homepage "https://pecl.php.net/package/zookeeper"

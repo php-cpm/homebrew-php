@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php72Mongodb < AbstractPhp72Extension
+class Php72Mongodb < PhpExtensionFormula
   init
   desc "MongoDB driver for PHP."
   homepage "https://pecl.php.net/package/mongodb"

@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php70Kafka < AbstractPhp70Extension
+class Php70Kafka < PhpExtensionFormula
   init
   desc "PHP extension for Apache Kafka"
   homepage "https://github.com/EVODelavega/phpkafka/"

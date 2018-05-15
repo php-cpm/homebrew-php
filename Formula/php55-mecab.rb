@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php55Mecab < AbstractPhp55Extension
+class Php55Mecab < PhpExtensionFormula
   init
   desc "MeCab binding for PHP"
   homepage "https://github.com/rsky/php-mecab"

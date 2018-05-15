@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php54SplTypes < AbstractPhp54Extension
+class Php54SplTypes < PhpExtensionFormula
   init
   desc "SPL Types is a collection of special typehandling classes."
   homepage "https://pecl.php.net/package/SPL_Types"

@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php54Molten < AbstractPhp54Extension
+class Php54Molten < PhpExtensionFormula
   init
   desc "PHP extension for Molten"
   homepage "https://github.com/chuan-yun/Molten"

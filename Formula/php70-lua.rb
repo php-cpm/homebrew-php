@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php70Lua < AbstractPhp70Extension
+class Php70Lua < PhpExtensionFormula
   init
   desc "This extension embeds the lua interpreter.."
   homepage "https://pecl.php.net/package/lua"

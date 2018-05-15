@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php72Gmagick < AbstractPhp72Extension
+class Php72Gmagick < PhpExtensionFormula
   init
   desc "Provides a wrapper to the GraphicsMagick library."
   homepage "https://pecl.php.net/package/gmagick"

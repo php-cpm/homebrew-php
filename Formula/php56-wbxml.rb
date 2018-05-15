@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php56Wbxml < AbstractPhp56Extension
+class Php56Wbxml < PhpExtensionFormula
   init
   desc "WBXML to XML conversion"
   homepage "https://pecl.php.net/package/wbxml"

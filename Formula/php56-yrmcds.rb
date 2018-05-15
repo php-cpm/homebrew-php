@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php56Yrmcds < AbstractPhp56Extension
+class Php56Yrmcds < PhpExtensionFormula
   init
   desc "Memcached/yrmcds client extension for PHP5"
   homepage "https://github.com/cybozu/php-yrmcds"

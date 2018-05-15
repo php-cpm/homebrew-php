@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php72Redis < AbstractPhp72Extension
+class Php72Redis < PhpExtensionFormula
   init
   desc "PHP extension for Redis"
   homepage "https://github.com/phpredis/phpredis"

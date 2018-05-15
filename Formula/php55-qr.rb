@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php55Qr < AbstractPhp55Extension
+class Php55Qr < PhpExtensionFormula
   init
   desc "QR Code generator extension."
   homepage "http://pecl.opendogs.org/"

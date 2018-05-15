@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php54Xcache < AbstractPhp54Extension
+class Php54Xcache < PhpExtensionFormula
   init
   desc "XCache is a fast, stable ​PHP opcode cacher."
   homepage "http://xcache.lighttpd.net"

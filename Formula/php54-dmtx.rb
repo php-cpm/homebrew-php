@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php54Dmtx < AbstractPhp54Extension
+class Php54Dmtx < PhpExtensionFormula
   init
   desc "PHP bindings for the dmtx library"
   homepage "http://www.libdmtx.org"

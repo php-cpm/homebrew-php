@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php55Xmldiff < AbstractPhp55Extension
+class Php55Xmldiff < PhpExtensionFormula
   init
   desc "XML diff and merge"
   homepage "https://pecl.php.net/package/xmldiff"

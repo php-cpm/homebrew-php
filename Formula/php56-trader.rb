@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php56Trader < AbstractPhp56Extension
+class Php56Trader < PhpExtensionFormula
   init
   desc "Technical Analysis for traders"
   homepage "https://pecl.php.net/package/trader"
