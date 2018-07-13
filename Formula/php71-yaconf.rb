@@ -1,6 +1,6 @@
 require File.expand_path("../Abstract/abstract-php-extension", __dir__)
  
-class Php72Yaconf < AbstractPhp72Extension
+class Php71Yaconf < PhpExtensionFormula 
   init
   desc "A PHP Persistent Configurations Container"
   homepage "https://github.com/laruence/yaconf"
