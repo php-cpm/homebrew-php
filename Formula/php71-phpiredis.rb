@@ -27,5 +27,6 @@ class Php71Phpiredis < PhpExtensionFormula
     system "make"
 
     prefix.install "modules/phpiredis.so"
+    write_config_file if build.with? "config-file"
   end
 end
